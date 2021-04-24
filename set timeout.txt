@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        shahzaib=()=>{
+            console.log("shahzaib")
+
+
+
+
+
+
+
+        }
+        clr=setInterval(shahzaib,3000);
+        clearInterval(clr);
+
+
+        localStorage.setItem("ahmed","ali","shahzaib","khan");
+        console.log(localStorage)
+
+        //json
+        obj={name: "shahzaib", lenght: "1"};
+        jso= (typeof obj);
+        console.log(obj)
+        console.log(jso)
+        parased=(`{"name":"shahzaib","lenght":1, "a":{"this":"tha\\"t"}}`);
+        console.log(parased)
+
+
+        a= 23;
+        console.log(`"the number is ${a}"`)
+
+
+        console.assert(4==(4-2));
+
+
+
+
+
+
+
+
+    </script>
+       
+</body>
+</html>
